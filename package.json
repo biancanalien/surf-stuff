@@ -1,0 +1,34 @@
+{
+  "name": "surf-stuff",
+  "version": "1.0.0",
+  "description": "typescript API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancanalien/surf-stuff.git"
+  },
+  "keywords": [
+    "typescript",
+    "api",
+    "nodejs"
+  ],
+  "author": "Bianca Nalien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biancanalien/surf-stuff/issues"
+  },
+  "homepage": "https://github.com/biancanalien/surf-stuff#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
